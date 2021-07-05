@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* position: fixed; */
+}
+section{
+    height: 600px;
+    padding-bottom: 1%;
+    /* page-break-inside: 150px; */
+    /* width: 100%; */
+}
+.orange-highlight{
+    color: salmon;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.line-space{
+    line-height:15px;
+}
+.padding-bottom{
+    padding-bottom: 2%;
+}
+.half-width img{
+    margin-top: 20%;
+    padding-top: 4%;
+    padding-left:10%;
+    width: 100%;
+    /* padding-right: 600px; */
