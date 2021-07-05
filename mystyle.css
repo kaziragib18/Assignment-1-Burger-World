@@ -26,7 +26,99 @@ section{
 }
 .half-width img{
     margin-top: 20%;
-    padding-top: 4%;
+    padding-top: 2%;
     padding-left:10%;
     width: 100%;
     /* padding-right: 600px; */
+}
+.tierce-width{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.tierce-width img{
+    width: 100%;
+}
+.tierce-width img:hover{
+    /* width: 115%;
+    margin: -25px 5px 5px -25px; */
+    transform: scale(1.15);
+}
+
+.first-div{
+    margin-top: 3%;
+    padding-top: 10%;
+    padding-left:10%;
+    padding-right: -200px;  
+}
+
+.second-div{
+    margin-top: 0%;
+    padding-top: 10%;
+    padding-left:10%;
+    padding-right: -200px;  
+}
+.second-div h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.top-banner{
+    margin-top: 10px;
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.top-banner h2{
+    color: #ec4c7a;
+    font-size: 50px;
+    font-weight: 900;
+    line-height:15px;
+}
+.top-banner p{
+    color: #707070;
+    /* font-size: 50px;
+    font-weight: 900;*/
+    padding-bottom:25px; 
+}
+.top-banner h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height:10px;
+}
+.About-us{
+    margin-top: 10px;
+    background-image: url("/images/background_1.jpg ");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1, h4 {
+    color: rgb(56, 52, 52);
+}
+.recipe_items h1, h4{
+    text-align: center;
+}
+.recipe-card{
+    width:33%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.recipe_items div{
+    box-shadow: 5px 7px 40px rgb(126, 122, 122);
+    height: 60%;
+    width: 25%;
+}
+#design-card{
+    margin: 60px 30px 10px 60px;
+    padding: 10px 5px 10px 10px ; 
+    border: 7px rgb(177, 173, 173);
+    border-radius: 1rem;
+}
+#recipe-pic{
+    height: 200px;
+    width: 333px;
+    border-radius: 1rem;
+}
