@@ -16,8 +16,6 @@ header{
     width: 100%;
     background-color: rgb(7, 7, 7);
     color: white;
-   
-
 }
 
 .intro-logo{
@@ -37,7 +35,7 @@ header{
 
 }
 
-.half-width{
+.div-half{
     width: 40%;
     float: left;
     margin-left: 1%;
@@ -52,7 +50,7 @@ header{
     padding-bottom: 2%;
 }
 
-.half-width img{
+.div-half img{
     margin-top: 12%;
     padding-top: 2%;
     padding-left:0%;
@@ -77,12 +75,7 @@ header{
     font-size: 30px;
     font-weight: 700;
 }
-.intro-part{
-    margin-top: 10px;
-    background-image: url("../img/header-bg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 .intro-part h2{
     font-size: 50px;
     font-weight: 900;
