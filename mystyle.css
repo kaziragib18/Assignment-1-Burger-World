@@ -165,6 +165,26 @@ h4{
     font-weight: 500;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0% !important;
+    justify-content: space-evenly; 
+}
+  
+.flex-container div {
+    color: rgb(66, 62, 62);
+    width: 33px;
+    padding: 2%;
+    line-height: 55px;
+    font-size: 30px;
+   
+}
+#card-text{
+    font: sans-serif;
+    font-size: 20px;
+}
+
 .footer {
     position:relative;
     margin-bottom: 0%;
